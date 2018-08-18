@@ -2,7 +2,7 @@
 
 A simple C++ implementation of the John Horton Conway's **game of life**.
 
-## Concept and rules
+## Concept and rules
 
 This program generates a grid of a certain size, divided into cells. Each cell embodies a living cell which can be in two different states: dead or alive.
 
@@ -11,9 +11,9 @@ The initial state is randomly set but each new generation is calculated followin
 * a living cell with two or three neighboring living cells stays alive, else it dies.
 
 
-## Installation
+## Installation
 
-### Requirements
+### Requirements
 
 This project was made using the SFML (2.5) library.
 
