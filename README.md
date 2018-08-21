@@ -10,7 +10,6 @@ The initial state is randomly set but each new generation is calculated followin
 * a dead cell with exactly three neighboring living cells becomes alive;
 * a living cell with two or three neighboring living cells stays alive, else it dies.
 
-
 ## Installation
 
 ### Requirements
@@ -21,8 +20,8 @@ You will need the SFML headers to generate the binary. You can download them on 
 
 ### Build
 
-To create the binary, run 
+Run 
 ```
 make
 ``` 
-in the project directory.
+in the project directory to generate a binary called `automaton`.
