@@ -1,4 +1,4 @@
-all: automaton.out
+all: automaton
 
 automaton: mrproper main.o TileMap.o cli.o
 	g++ -g main.o TileMap.o cli.o -o automaton -lsfml-graphics -lsfml-window -lsfml-system -std=c++11
