@@ -24,7 +24,7 @@ private:
     sf::Vector2u m_tileSize;
     int m_width;
     int m_height;
-    std::vector<std::vector<bool>> m_cells;
+    std::vector<std::vector<bool> > m_cells;
 };
 
 double generateRandomNumber();

@@ -8,7 +8,7 @@ TileMap::TileMap(sf::Vector2u tileSize, unsigned int width, unsigned int height)
     m_tileSize = tileSize;
     m_width = width;
     m_height = height;
-    m_cells = vector<vector<bool>>(height, vector<bool>(width, false));
+    m_cells = vector<vector<bool> >(height, vector<bool>(width, false));
     fillWithRandomValues(0.7);
     m_vertices.setPrimitiveType(sf::Quads);
     m_vertices.resize(width * height * 4);
