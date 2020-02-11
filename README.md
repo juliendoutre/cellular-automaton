@@ -1,4 +1,4 @@
-# cellular-automaton
+# cellular-automaton 👾
 
 A simple C++ implementation of the John Horton Conway's **game of life**.
 
